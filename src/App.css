@@ -1,4 +1,17 @@
 /* Navbar */
-.navbar-nav a {
+.navbar {
   font-size: 18px;
+  position: fixed;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s;
+}
+
+.card-img-top:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.hero {
+  padding-top: 90px;
 }

@@ -104,7 +104,9 @@ const Products = () => {
                       to={`/products/${product.id}`}
                       class="btn btn-outline-dark"
                     >
-                      Buy Now
+                      <div className="button btn btn-outline-dark me-2">
+                        Buy Now
+                      </div>
                     </NavLink>
                   </div>
                 </div>
